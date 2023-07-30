@@ -1,23 +1,22 @@
 # DailyPress App
-DailyPress adalah sebuah aplikasi yang memberikan informasi terkini di dunia. Dengan fokus pada berita dan informasi terbaru, DailyPress menyajikan berbagai topik berita seperti politik, ekonomi, teknologi, hiburan, dan banyak lagi. Aplikasi ini dirancang untuk memberikan pengguna akses mudah dan cepat ke berita terbaru dari sumber terpercaya di seluruh dunia.
+DailyPress adalah sebuah aplikasi yang memberikan informasi terkini di dunia. Dengan fokus pada berita dan informasi terbaru, DailyPress menyajikan topik berita bisnis. Aplikasi ini dirancang untuk memberikan pengguna akses mudah dan cepat ke berita terbaru dari sumber terpercaya di seluruh dunia.
 
 ## DailyPress Screenshot
-<img src="https://user-images.githubusercontent.com/88072585/154419125-18a3e67b-9259-4ec1-80e4-ad8ea5b6e0fa.jpg"
-width="256">
+<img src="https://raw.githubusercontent.com/yudhapest/daily-press-app/master/assets/banner.png"
+width="400"></br>
+Apabila QR-Code tidak berfungsi bisa download lewat : https://drive.google.com/drive/u/2/folders/1iEx435e_2IR27O65X5bR2ra6ZAUp2dEs
 
 ## Fitur Utama
  * [x] Berita Terkini
  * [x] Penyimpanan Tersimpan
 
-## Demo
-[Link ke demo aplikasi atau tangkapan layar/rekaman video]
-
 ## Instalasi
- * [x] Download Project: Unduh project FlutterNewsApp dari repositori GitHub dengan mengikuti tautan berikut: https://github.com/your-username/FlutterNewsApp.
- * [x] Instalasi Dependensi: Buka terminal atau command prompt di direktori project FlutterNewsApp yang telah diunduh. Jalankan perintah berikut untuk menginstal dependensi yang diperlukan: 
+ * [x] Download Project: Unduh project Daily Press dari repositori GitHub dengan mengikuti tautan berikut: https://github.com/yudhapest/daily-press-app.
+ * [x] Instalasi Dependensi: Buka terminal atau command prompt di direktori project daily-press-app yang telah diunduh. Jalankan perintah berikut untuk menginstal dependensi yang diperlukan: 
 ``` 
 flutter pub get
 ```
+  * [x] Jangan lupa memasukan API yang sudah terdaftar melalui penyedia API yaitu : News API
   * [x] Menjalankan Aplikasi: Setelah selesai menginstal dependensi, jalankan perintah berikut untuk menjalankan aplikasi di emulator atau perangkat yang terhubung:
 ``` 
 flutter run
