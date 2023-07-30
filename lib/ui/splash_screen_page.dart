@@ -1,6 +1,5 @@
 // ignore_for_file: library_private_types_in_public_api, unused_element
 
-import 'package:daily_press/common/navigation.dart';
 import 'package:daily_press/common/styles.dart';
 import 'package:daily_press/ui/home_page.dart';
 import 'package:daily_press/widgets/platform_widget.dart';
@@ -20,7 +19,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 2), () {
-      Navigation.intentWithData(HomePage.routeName, () {});
+      Navigator.pushReplacementNamed(context, HomePage.routeName);
     });
   }
 
